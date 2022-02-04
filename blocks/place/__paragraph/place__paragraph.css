@@ -4,26 +4,9 @@
   font-size: 16px;
   line-height: 1.63;
   color: #FFFFFF;
-  min-width: 288px;
-  padding: 0 16px 0;
+  padding: 0 0 16px;
   margin: 0;
 }
-
-@media screen and (min-width: 768px) {
-  .place__paragraph {
-    max-width: 352px;
-    padding: 0;
-    grid-column: -1/2;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .place__paragraph {
-    font-size: 18px;
-    max-width: 456px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .place__paragraph {
-    max-width: 484px;
-  }
+.place__paragraph:last-of-type {
+  padding-bottom: 0;
 }

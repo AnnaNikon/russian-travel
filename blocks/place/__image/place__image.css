@@ -1,5 +1,4 @@
 .place__image {
-  min-width: 320px;
   width: 100%;
   margin: 0;
   object-fit: cover;
@@ -7,17 +6,6 @@
 
 @media screen and (min-width: 768px) {
   .place__image {
-    min-width: 340px;
-    grid-row: 2/4;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .place__image {
-    min-width: 440px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .place__image {
-    min-width: 460px;
+    grid-area: image;
   }
 }

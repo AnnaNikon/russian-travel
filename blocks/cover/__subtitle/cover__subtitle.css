@@ -6,25 +6,15 @@
   text-align: center;
   color: #FFFFFF;
   z-index: 2;
-  margin: 16px 16px 33px;
-  padding: 0;
-  white-space: pre-line;
+  margin: 0;
+  max-width: 288px;
+  align-self: center;
+
 }
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 1.22;
-    margin: 32px 204px 115px;
+    max-width: 360px;
   }
-}
-@media screen and (min-width: 1024px) {
-  .cover__subtitle {
-    margin: 32px 332px 195px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .cover__subtitle {
-    margin: 32px 412px 245px;
-  }
-
 }

@@ -6,29 +6,18 @@
   text-align: center;
   color: #FFFFFF;
   z-index: 4;
-  margin: 32px 16px 0;
+  margin: 0 0 16px;
   padding: 0;
-  white-space: pre-line;
+  align-self: center;
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .cover__title {
     font-size: 72px;
     line-height: 1.06;
-    margin: 115px 104px 0;
+    margin-bottom: 32px;
+    max-width: 560px;
   }
-
-}
-@media screen and (min-width: 1024px) {
-  .cover__title {
-    margin: 195px 235px 0;
-  }
-
-}
-@media screen and (min-width: 1280px) {
-  .cover__title {
-    margin: 245px 312px 0;
-  }
-
 }
 
