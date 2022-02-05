@@ -10,3 +10,8 @@
 .place__paragraph:last-of-type {
   padding-bottom: 0;
 }
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+}
